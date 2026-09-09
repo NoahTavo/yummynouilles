@@ -455,3 +455,290 @@ footer img {
     display: flex;
     justify-content: center;
 }
+
+/*-----------------------MOBILE CSS----------------------------------------*/
+@media (max-width: 768px) {
+    @media (max-width: 768px) {
+
+        :root {
+            /* Mobile Variables */
+            --body-font-size: 1rem;
+            --body-highlight-font-size: 1rem;
+            --header-font-size: 2.5rem;
+            --title-font-size: 1.25rem;
+
+            --body-line-height: 1.25rem;
+            --body-highlight-line-height: 1.25rem;
+            --header-line-height: 3rem;
+            --title-line-height: 1.5rem;
+        }
+
+        /*----------------nav bar----------------*/
+
+        header {
+            height: auto;
+            justify-content: center;
+            margin: 1rem 0;
+            padding: 16px 20px;
+            gap: 14px;
+        }
+
+        .petitLogo {
+            width: 4rem;
+            height: 4rem;
+        }
+
+        .appBar_nav {
+            gap: 14px;
+            padding-left: 1rem;
+        }
+
+        .appBar__navItem {
+            font-size: 16px;
+        }
+
+        /*-----------------section accueil-------------*/
+
+        .presentYUMMY {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3rem;
+            min-height: auto;
+            margin: 2rem auto;
+            padding: 0 1.5rem;
+        }
+
+        .presentYUMMY__container {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 0;
+        }
+
+        .titreAccueil {
+            font-size: 40px;
+            margin-bottom: 14px;
+        }
+
+        .description {
+            font-size: 17px;
+            margin-bottom: 22px;
+        }
+
+        .presentYUMMY_click_and_collect,
+        .click_and_collect {
+            width: 255px;
+            height: 48px;
+            margin: 0 auto;
+            font-size: 16px;
+        }
+
+        .grosLogo {
+            width: 230px;
+            height: 230px;
+        }
+
+        /*-----------------------adresse photos galerie-----------------*/
+
+        .adresse {
+            margin-top: 2rem;
+            padding: 0 0 36px;
+        }
+
+        .adresse h2,
+        .savoir-faire h2,
+        .socials h2,
+        .contact h2 {
+            font-size: 18px;
+            margin-bottom: 22px;
+        }
+
+        .contact h2 {
+            margin-top: 40px;
+        }
+
+        .adresse_gallery {
+            width: 100%;
+            padding: 0 24px;
+            grid-template-columns: 1fr;
+            row-gap: 28px;
+            column-gap: 0;
+        }
+
+        .adresse_gallery p,
+        .Adresses_nouilles__container p {
+            font-size: 1rem;
+            text-align: center;
+        }
+
+        .adresse_gallery strong,
+        .Adresses_nouilles__container p strong {
+            font-size: 1.2rem;
+        }
+
+        .adresse_gallery p {
+            margin-top: 10px;
+        }
+
+        /*----------------------------barre daction----------------------------------------*/
+
+        .cta_banner {
+            height: auto;
+            margin-top: 32px;
+            padding: 28px 20px;
+        }
+
+        .cta_banner p {
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        .cta_banner_link {
+            width: 255px;
+            height: 48px;
+        }
+
+        /*-----------savoir faire-----------------------*/
+
+        .savoir-faire {
+            width: 100%;
+            padding: 30px 24px 36px;
+        }
+
+        .savoir-faire p {
+            font-size: 14px;
+            line-height: 1.45;
+        }
+
+        /*______________________________reseaux--------------*/
+
+        .socials {
+            margin-top: 2rem;
+            padding: 0 0 40px;
+        }
+
+        .socials-gallery {
+            width: 100%;
+            padding: 0 24px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+        }
+
+        .socials-gallery img {
+            width: calc(50% - 12px);
+        }
+
+        /*--------------------------------------contact------------------*/
+
+        .contact {
+            width: 100%;
+            padding: 5px 24px 40px;
+        }
+
+        .contact p {
+            font-size: 14px;
+            line-height: 1.45;
+        }
+
+        /*----------------------------FOOTER--------------------------------*/
+        footer {
+            min-height: auto;
+            justify-content: center;
+            gap: 3.5rem;
+            padding: 30px 24px;
+        }
+
+        footer a {
+            margin-right: 0;
+        }
+
+        footer img {
+            width: 26px;
+            height: 26px;
+        }
+
+        /*--------------------------------------page menu------------------*/
+
+        .menuYUMMY {
+            width: 100%;
+            padding: 0 24px;
+        }
+
+        .menuYUMMY__container {
+            width: 100%;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+
+        .titreMenu {
+            font-size: 38px;
+            margin-top: 28px;
+        }
+
+        .accroche_menu {
+            display: none;
+        }
+
+        .menuYUMMY__Menu {
+            width: 100%;
+            height: auto;
+            padding-top: 40px;
+            padding-bottom: 40px;
+        }
+
+        .moyenLogo {
+            margin: 0 auto 32px;
+            display: block;
+        }
+
+        .detailsMenu {
+            margin-left: 0;
+            width: 100%;
+            padding: 0 20px;
+        }
+
+        .titreMENUcard {
+            font-size: 20px;
+            height: auto;
+            margin-bottom: 16px;
+        }
+
+        /*--------------------------------------page contact------------------*/
+
+        .Adresses_nouilles {
+            height: auto;
+            padding: 0 24px;
+        }
+
+        .Adresses_nouilles > h1 {
+            font-size: 38px;
+            margin-top: 40px;
+            margin-bottom: 24px;
+        }
+
+        .Adresses_nouilles__container {
+            flex-direction: column;
+            align-items: center;
+            gap: 28px;
+        }
+
+        .Adresses_nouilles__container > div {
+            margin-left: 0 !important;
+        }
+
+        .Adresses_nouilles__container p {
+            font-size: 1rem !important;
+        }
+
+        .Adresses_nouilles__container p strong {
+            font-size: 1.2rem !important;
+        }
+
+    }
+
+}
