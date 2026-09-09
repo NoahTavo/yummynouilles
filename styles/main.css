@@ -455,6 +455,15 @@ footer img {
     display: flex;
     justify-content: center;
 }
+.Adresses_nouilles__container > div{
+    margin-left: 45px;
+}
+.Adresses_nouilles__container p{
+    font-size: 24px;
+}
+.Adresses_nouilles__container p strong{
+    font-size: 24px;
+}
 
 /*-----------------------MOBILE CSS----------------------------------------*/
 @media (max-width: 768px) {
@@ -728,15 +737,15 @@ footer img {
         }
 
         .Adresses_nouilles__container > div {
-            margin-left: 0 !important;
+            margin-left: 0;
         }
 
         .Adresses_nouilles__container p {
-            font-size: 1rem !important;
+            font-size: 1rem;
         }
 
         .Adresses_nouilles__container p strong {
-            font-size: 1.2rem !important;
+            font-size: 1.2rem;
         }
 
     }
